@@ -75,12 +75,6 @@ online-shopping/
 ├── pom.xml                              # Maven configuration
 └── README.md                            # Project documentation
 
-Screenshots:
-https://docs/screenshots/home.png
-https://docs/screenshots/product.png
-https://docs/screenshots/cart.png
-https://docs/screenshots/admin.png
-
 Contributing
 Contributions are welcome! Please follow these steps:
 
@@ -93,6 +87,107 @@ Commit your changes (git commit -m 'Add some AmazingFeature')
 Push to the branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
+
+
+Project Output Overview:
+
+Database Structure Created:
+mysql> SHOW TABLES;
++--------------------------+
+| Tables_in_online_shopping |
++--------------------------+
+| users                    |
+| products                 |
+| orders                   |
+| order_items              |
+| categories               |
+| product_categories       |
++--------------------------+
+
+Web Interface Flow:
+ [User Registration Form]
+---------------------------------
+Email:        [___________]
+Password:     [___________]
+Full Name:    [___________]
+Address:      [___________]
+Phone:        [___________]
+
+[Register Button]
+
+Product Listing Page:
+[Online Shopping - Products]
+---------------------------------
+[Search Bar] [Cart (0)]
+
+1. Smartphone XYZ - $599.99 [Add to Cart]
+   ★★★★☆ (128 reviews)
+   
+2. Wireless Headphones - $89.99 [Add to Cart]
+   ★★★★★ (256 reviews)
+
+3. Laptop Pro - $1299.99 [Add to Cart]
+   ★★★★☆ (78 reviews)
+
+Shopping Cart Page:
+[Your Shopping Cart]
+---------------------------------
+1. Smartphone XYZ - $599.99
+   Quantity: [2] [Update] [Remove]
+   
+2. Wireless Headphones - $89.99
+   Quantity: [1] [Update] [Remove]
+
+Subtotal: $1289.97
+Tax: $90.30
+Total: $1380.27
+
+[Proceed to Checkout]
+
+Order Confirmation Page:
+[Order Confirmation #1001]
+---------------------------------
+Thank you, John Doe!
+Your order has been placed successfully.
+
+Delivery Address:
+123 Main St, Apt 4B
+New York, NY 10001
+
+Expected Delivery: July 20, 2023
+
+[Continue Shopping]
+
+Admin Panel Output:
+[Admin Dashboard - Products]
+---------------------------------
+[Add New Product]
+
+ID  Name                Price    Stock  Actions
+------------------------------------------------
+1   Smartphone XYZ      $599.99   50    [Edit][Delete]
+2   Wireless Headphones $89.99    120   [Edit][Delete]
+3   Laptop Pro         $1299.99   15    [Edit][Delete]
+
+[Admin Dashboard - Orders]
+---------------------------------
+Order#  Customer         Date        Total    Status
+----------------------------------------------------
+1001    John Doe     2023-07-15   $1380.27  Processing
+1002    Jane Smith   2023-07-14    $599.99  Shipped
+1003    Mike Brown   2023-07-13    $299.97  Delivered
+
+Screenshots:
+C:\Users\BAJRANG\Pictures\Screenshots\h1.png
+C:\Users\BAJRANG\Pictures\Screenshots\h2.png
+C:\Users\BAJRANG\Pictures\Screenshots\h3.png
+C:\Users\BAJRANG\Pictures\Screenshots\h4.png
+C:\Users\BAJRANG\Pictures\Screenshots\h5.png
+C:\Users\BAJRANG\Pictures\Screenshots\h6.png
+C:\Users\BAJRANG\Pictures\Screenshots\h7.png
+
+
+
 
 Contact
 For any queries, please contact:
