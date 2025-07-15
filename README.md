@@ -1,7 +1,7 @@
 Members 
 1. Patil bajrang(SESP)
 2. Chargundi Vaishali(SESP)
-3. Kaushik HAtte(SESp)
+3. Kaushik Hatte (SESP)
 
 #  Online Shopping System with Hibernate
 
